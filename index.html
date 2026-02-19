@@ -3,83 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LionLemon_R3G Official Website</title>
+<title>LionLemon_R3G</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 
 <style>
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #111, #1a1a1a);
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle at top, #111, #000);
     color: white;
+    text-align: center;
 }
 
 header {
+    padding: 30px;
     background: black;
-    padding: 20px;
-    text-align: center;
+    box-shadow: 0 0 20px #f1c40f;
 }
 
-header h1 {
+h1 {
     color: #f1c40f;
-    font-size: 40px;
-}
-
-nav {
-    text-align: center;
-    padding: 15px;
-    background: #222;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #f1c40f;
-}
-
-section {
-    padding: 50px;
-    text-align: center;
+    font-size: 45px;
+    letter-spacing: 3px;
 }
 
 .hero {
-    background: url('https://images.unsplash.com/photo-1542751371-adc38448a05e') no-repeat center center/cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 100px 20px;
 }
 
 .hero h2 {
     font-size: 50px;
-    background: rgba(0,0,0,0.7);
-    padding: 15px 30px;
+    text-shadow: 0 0 20px #f1c40f;
 }
 
 .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 35px;
     background: #f1c40f;
     color: black;
-    padding: 15px 30px;
-    text-decoration: none;
     font-weight: bold;
-    margin-top: 20px;
-    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .button:hover {
     background: orange;
+    transform: scale(1.1);
 }
 
-footer {
-    background: black;
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+.videos {
+    padding: 50px;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
 }
 </style>
 </head>
@@ -87,44 +70,27 @@ footer {
 <body>
 
 <header>
-    <h1>LionLemon_R3G</h1>
-    <p>Official YouTube Channel Website</p>
+    <h1>LIONLEMON_R3G</h1>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#videos">Videos</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <section class="hero">
-    <h2>Welcome to the LionLemon World 🦁🍋</h2>
-    <a href="https://youtube.com/@lionlemon_r3g" class="button">Subscribe Now</a>
+    <h2>Gaming. Energy. Power. 🦁🔥</h2>
+    <a href="https://youtube.com/@lionlemon_r3g" class="button">SUBSCRIBE NOW</a>
 </section>
 
-<section id="about">
-    <h2>About The Channel</h2>
-    <p>
-        LionLemon_R3G is a gaming and entertainment YouTube channel 
-        delivering high-energy gameplay, epic moments, and exciting challenges.
-        Join the journey and become part of the LionLemon army!
-    </p>
-</section>
-
-<section id="videos">
+<section class="videos">
     <h2>Latest Videos</h2>
-    <p>New content every week. Stay tuned for awesome gaming action!</p>
-</section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: lionlemon@example.com</p>
-    <p>Follow on YouTube and social media for updates.</p>
-</section>
+    <!-- Replace VIDEO_ID with your real video ID -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
 
-<footer>
-    <p>© 2026 LionLemon_R3G. All Rights Reserved.</p>
-</footer>
+</section>
 
 </body>
 </html>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID"
+allowfullscreen>
+</iframe>
